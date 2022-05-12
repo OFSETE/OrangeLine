@@ -1,45 +1,30 @@
-<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data</title>
     <link rel="stylesheet" href="style.css">
-    <title>Reservas</title>
-    <style>
-        .inpor{
-            margin-top: 50px;
-        }
-
-        .container{
-            margin-right: 95px;
-        }
-        
-
-    </style>
 </head>
 
 <body>
     <header>
         <nav>
             <p>Orange Line</p>
-            <ul class="nav-list">
-                <li><a href="home2.html">Home</a></li>
-        </nav>
     </header>
     <div class="container">
-          <h1 class="home-title">Equipamentos</h1>
-          <div>
-          <button type="submit" class="home-button"><a href="dataequip.html">Televisão</a></button>
-      <button type="submit" class="home-button"><a href="dataequip.html">Data-show</a></button>
-      <button type="submit" class="home-button"><a href="dataequip.html">Som</a></button>
-            <div class="inpor">
-                <button type="submit" class="home-button"><a href="laboratorios.html">Próximo > </a></button>
-      <button type="submit" class="home-button"><a href="laboratorios.html">Voltar</a></button>
-
-            </div>
-         </div>
+        <div id="cadastro">
+            
+            <h1>Data e hora</h1>
+            <p>Defina a data e hora desejada:</p>
+            <form>
+                <input type="datetime-local" style="background-color: white">
+                <button type="submit" class="home-button"><a href="pedidoequip.html">confirmar</a></button>
+                <button type="submit" class="home-button"><a href="equipamentos.html">Voltar</a></button>
+            </form>
+        </div>
     </div>
+
     <script>
         class MobileNavbar {
             constructor(mobileMenu, navList, navLinks) {
@@ -86,4 +71,5 @@
         mobileNavbar.init();
     </script>
 </body>
+
 </html>

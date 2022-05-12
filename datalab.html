@@ -1,38 +1,30 @@
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Data</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        .container {
-            margin-top: 15%;
-        }
-    </style>
 </head>
 
 <body>
     <header>
         <nav>
             <p>Orange Line</p>
-            <div class="mobile-menu">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
-            <ul class="nav-list">
-                <li><a href="home2.html">Home</a></li>
-                <li><a href="equipamentos.html">Reservas</a></li>
-            </ul>
-        </nav>
     </header>
     <div class="container">
-      <h1 id="home-title">Seja bem vindo!</h1>
-      <button type="submit" class="home-button"><a href="equipamentos.html">Reservas</a></button>
-      <button type="submit" class="home-button"><a href="conta.html">Minha conta</a></button>
+        <div id="cadastro">
+            
+            <h1>Data e hora</h1>
+            <p>Defina a data e hora desejada:</p>
+            <form>
+                <input type="datetime-local" style="background-color: white">
+                <button type="submit" class="home-button"><a href="pedidolab.html">confirmar</a></button>
+                <button type="submit" class="home-button"><a href="laboratorios.html">Voltar</a></button>
+            </form>
+        </div>
     </div>
+
     <script>
         class MobileNavbar {
             constructor(mobileMenu, navList, navLinks) {

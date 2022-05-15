@@ -110,7 +110,30 @@ body {
     padding: 2rem 4rem;
 }
 
+.sohome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+    margin-left: 15%;
+    padding: 2rem 4rem;
+}
+
 #cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 51px;
+    box-shadow:  50px 50px 100px #1d1d1d11, -50px -50px 100px #75757510;
+}
+
+#sohome {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -130,7 +153,19 @@ body {
     text-align: center;
 }
 
+#sohome h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 #cadastro p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#sohome p {
     font-size: 20px;
     margin-bottom: 10px;
     text-align: center;
@@ -187,6 +222,12 @@ input:hover {
     color: white;
 }
 
+.sohome #home-title {
+    font-size: 70px;
+    text-align: center;
+    color: white;
+}
+
 .home-button {
     width: 200px;
     height: 45px;
@@ -209,6 +250,10 @@ input:hover {
     margin: 0.3rem;
 }
 
+.sohome button {
+    margin: 0.3rem;
+}
+
 button {
     border-style: none;
 }
@@ -219,6 +264,10 @@ button {
 }
 
 .container{
+    margin-right: 70px;
+}
+
+.sohome{
     margin-right: 70px;
 }
 
@@ -262,4 +311,4 @@ button {
     -webkit-backdrop-filter: blur( 10px );
     border-radius: 51px;
     box-shadow:  50px 50px 100px #1d1d1d11, -50px -50px 100px #75757510;
-        }
+    }

@@ -1,30 +1,40 @@
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+    <title>Reservas</title>
+    <style>
+        .inpor{
+            margin-top: 50px;
+        }
+    </style>
 </head>
 
 <body>
     <header>
         <nav>
             <p>Orange Line</p>
+        </nav>
     </header>
     <div class="container">
-        <div id="cadastro">
-            
-            <h1>Data e hora</h1>
-            <p>Defina a data e hora desejada:</p>
-            <form>
-                <input type="datetime-local" style="background-color: white">
-                <button type="submit" class="home-button"><a href="pedidoequip.html">confirmar</a></button>
-                <button type="submit" class="home-button"><a href="equipamentos.html">Voltar</a></button>
-            </form>
-        </div>
-    </div>
+          <h1 class="home-title">Equipamentos</h1>
+          <div>
+          <button type="submit" class="home-button"><a href="datatv.html">Televisão 1</a></button>
+      <button type="submit" class="home-button"><a href="datatv.html">Televisão 2</a></button>
+      <button type="submit" class="home-button"><a href="datatv.html">Televisão 3</a></button>
+      <button type="submit" class="home-button"><a href="datatv.html">Televisão 4</a></button>
+      <button type="submit" class="home-button"><a href="datatv.html">Televisão 5</a></button>
+      <button type="submit" class="home-button"><a href="datatv.html">Televisão 6</a></button>
+            <div class="inpor">
+      <button type="submit" class="home-button"><a href="equipamentos.html">Voltar</a></button>
 
+            </div>
+         </div>
+    </div>
     <script>
         class MobileNavbar {
             constructor(mobileMenu, navList, navLinks) {
@@ -71,5 +81,4 @@
         mobileNavbar.init();
     </script>
 </body>
-
 </html>

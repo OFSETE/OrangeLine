@@ -1,46 +1,31 @@
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Data</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        
-        nav p {
-            margin: auto;
-            margin-top: 40px;
-        }
-
-        .container {
-            background-color: white;
-            border-radius: 10px;
-            width: 250px;
-            height: 390px;
-            margin: auto;
-            margin-top: 100px;
-        }
-        .container p {
-            font-size: 25px
-        }
-    </style>
+    <link rel="icon" href="icon.png">
 </head>
 
 <body>
     <header>
         <nav>
             <p>Orange Line</p>
-        </nav>
     </header>
     <div class="container">
-      <h1 id="Confirmtx">Confirmação de pedido</h1>
-      <p>Equipamento</p>
-      <p>15/05/2022</p>
-      <p>15:00</p>
-      <button type="submit" class="home-button"><a href="pedidoconfirmado.html">Confirmar</a></button>
-      <button type="submit" class="home-button"><a href="dataequip.html">Cancelar</a></button>
+        <div id="cadastro">
+            
+            <h1>Data e hora</h1>
+            <p>Defina a data e hora desejada:</p>
+            <form>
+                <input type="datetime-local" style="background-color: white">
+                <button type="submit" class="home-button"><a href="pedidoprojetor.html">confirmar</a></button>
+                <button type="submit" class="home-button"><a href="equipamentos.html">Voltar</a></button>
+            </form>
+        </div>
     </div>
+
     <script>
         class MobileNavbar {
             constructor(mobileMenu, navList, navLinks) {

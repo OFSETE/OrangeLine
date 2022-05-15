@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="OL.ico">
     <link rel="stylesheet" href="style.css">
-    <title>Orange Line</title>
+    <title>Reservas</title>
     <style>
-        .container {
-            margin-top: 75px;
+        .inpor{
+            margin-top: 50px;
         }
-
+        
         .esquerda{
     display: flex;
         }
@@ -19,64 +18,36 @@
     .direita{
     display: flex;
         }
-    
-.lab-button {
-    width: 200px;
-    height: 45px;
-    padding: 15px;
-    border-radius: 10px;
-    border-style: none;
-    font-size: 15px;
-    background-color: #fc8422;
-    margin: auto;
-    box-shadow: none;
-}
 
-.lab-button a {
-    color: white;
-    text-align: center;
-}
-
-    .container {
-    margin-left: 30%;
-}
-
-.lab-title{
-    margin-left: 100px;
-}
-
-.home-button{
-    width: 180px;
-}
-
-        </style>
+    </style>
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="home.html">orange line</a>
-            </div>
+            <p>Orange Line</p>
         </nav>
     </header>
     <div class="container">
-    <div>
-      <h1 class="lab-title">Laboratórios</h1>
-      <div id="esquerda">
-      <button type="submit" class="home-button"><a href="datalab.html">Matemática</a></button>
+          <h1 class="home-title">Laboratórios</h1>
+          <div id="esquerda">
+        <button type="submit" class="home-button"><a href="datalab.html">Matemática</a></button>
       <button type="submit" class="home-button"><a href="datalab.html">Química</a></button>
       <button type="submit" class="home-button"><a href="datalab.html">Fisíca</a></button>
       <button type="submit" class="home-button"><a href="datalab.html">Mecânica</a></button>
+            </div>
+            <div id="direita">
+                <button type="submit" class="home-button"><a href="datalab.html">Linguas</a></button>
+                <button type="submit" class="home-button"><a href="datalab.html">Informática</a></button>
+                <button type="submit" class="home-button"><a href="datalab.html">Biologia</a></button>
+                <button type="submit" class="home-button"><a href="datalab.html">Eletrotecnica</a></button>
+            </div>
+            <div class="inpor">
+                <button type="submit" class="home-button"><a href="equipamentos.html"> < Anterior</a></button>
+
+            </div>
+         
     </div>
-    <div id="direita">
-      <button type="submit" class="home-button"><a href="datalab.html">Linguas</a></button>
-    <button type="submit" class="home-button"><a href="datalab.html">Informática</a></button>
-      <button type="submit" class="home-button"><a href="datalab.html">Biologia</a></button>
-      <button type="submit" class="home-button"><a href="datalab.html">Eletrotecnica</a></button>
-      </div>
-        <div class="anterior">
-            <button type="submit" class="lab-button" id="anterior"><a href="equipamentos.html"> < Anterior</a></button>
-        </div>
     <script>
         class MobileNavbar {
             constructor(mobileMenu, navList, navLinks) {

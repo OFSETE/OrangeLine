@@ -231,12 +231,13 @@ button {
 
 #anterior {
    margin-top: 20px;
-   margin-right: 130px
+   margin-right: 80px;
 }
 
 .anterior {
-    margin-left: 130px;
+    margin-left: 140px;
 }
+
 
 #Confirmtx{
     text-align: center;

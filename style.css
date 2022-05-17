@@ -145,6 +145,10 @@ body {
     -webkit-backdrop-filter: blur( 10px );
     border-radius: 51px;
     box-shadow:  50px 50px 100px #1d1d1d11, -50px -50px 100px #75757510;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
 
 #cadastro h1 {
@@ -297,6 +301,11 @@ button {
 
 #og{
     color: white;
+}
+
+#ogp{
+    color: white;
+    margin-right: 20px;
 }
 
 .container {

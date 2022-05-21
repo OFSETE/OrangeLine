@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif ;
+        min-height: 100vh;
+    min-width: 100vw;
+    margin: 0;
+    background-image: radial-gradient( rgb(255, 175, 25), #fc8422);
+    }
+
+div{
+    background-color: rgba(0,0, 0, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+}
+
+   input{
+       padding: 15px;
+       border: none;
+       outline: none;
+       font-size: 15px;
+   }
+
+   button{
+   background-color: dodgerblue ;
+   border: none;
+   padding: 15px;
+   width: 100%;
+   border-radius: 10px;
+   color: white;
+   font-size: 15px ;
+   cursor: pointer;
+}
+
+   button:hover{
+   background-color: deepskyblue;
+   }
+
+   #enter{
+       margin-top: 15px;
+   }
+
+   
+#og{
+    color: white;
+    text-align: center;
+}
+  </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <p id="og">Orange Line</p>
+        </nav>
+    </header>
+    <div>
+<h1 id="txttitle">Login</h1>
+<p>Preencha os campos abaixo:</p>
+<input type="text" placeholder="Email">
+<br><br>
+<input type="password" placeholder="Senha">
+  <br>
+<button id="enter">Entrar</button>
+<button id="enter">Voltar</button>
+</div>
+</body>
+</html>

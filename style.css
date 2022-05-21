@@ -111,11 +111,14 @@ body {
 }
 
 .sohome {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem 4rem;
+    background-color: rgba(0,0, 0, 0.0);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
 }
 
 #cadastro {

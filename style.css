@@ -111,14 +111,14 @@ body {
 }
 
 .sohome {
-    background-color: rgba(0,0, 0, 0.0);
+    background-color: rgba(0,0, 0, 0);
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
-    padding: 80px;
     border-radius: 15px;
     color: white;
+    text-align: center;
 }
 
 #cadastro {
@@ -222,12 +222,6 @@ input:hover {
     height: 80px;
 }
 
-.container #home-title {
-    font-size: 70px;
-    text-align: center;
-    color: white;
-}
-
 .sohome #home-title {
     font-size: 60px;
     text-align: center;
@@ -303,6 +297,7 @@ button {
 
 #og{
     color: white;
+    margin-right: 20px;
 }
 
 #ogp{

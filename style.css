@@ -298,6 +298,7 @@ button {
 #og{
     color: white;
     margin-right: 20px;
+    margin: 0;
 }
 
 #ogp{
@@ -317,4 +318,8 @@ button {
     -webkit-backdrop-filter: blur( 10px );
     border-radius: 51px;
     box-shadow:  50px 50px 100px #1d1d1d11, -50px -50px 100px #75757510;
+    }
+
+    #voltar {
+        margin-top: 25px;
     }

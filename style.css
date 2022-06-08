@@ -299,6 +299,7 @@ button {
     color: white;
     margin-right: 20px;
     margin: 0;
+    margin-bottom: 20px;
 }
 
 #ogp{
@@ -320,6 +321,20 @@ button {
     box-shadow:  50px 50px 100px #1d1d1d11, -50px -50px 100px #75757510;
     }
 
+    #email2 {
+        color: white;
+        margin-bottom: 20px;
+        margin-right: 50px;
+        font-size: 19px;
+    }
+
     #voltar {
         margin-top: 25px;
     }
+
+#user {
+    width: 150px;
+    height: 150px;
+    filter: (white);
+    margin-bottom: 20px;
+}

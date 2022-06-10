@@ -133,6 +133,7 @@ body {
     -webkit-backdrop-filter: blur( 10px );
     border-radius: 51px;
     box-shadow:  50px 50px 100px #1d1d1d11, -50px -50px 100px #75757510;
+    margin-top: 30px;
 }
 
 #sohome {
@@ -302,6 +303,10 @@ button {
     margin-bottom: 20px;
 }
 
+#og2 {
+    color: #ffffff;
+}
+
 #ogp{
     color: white;
     margin-right: 20px;
@@ -314,11 +319,12 @@ button {
     justify-content: center;
     min-height: 100px;
     padding: 2rem;
-    background: rgba(255, 255, 255, 0);
+    background: rgba(255, 255, 255, 0.002);
     backdrop-filter: blur( 10px );
     -webkit-backdrop-filter: blur( 10px );
     border-radius: 51px;
-    box-shadow:  50px 50px 100px #1d1d1d11, -50px -50px 100px #75757510;
+    box-shadow:  50px 50px 100px #1d1d1d20, -50px -50px 100px #75757522;
+    color: white;
     }
 
     #email2 {
@@ -337,4 +343,49 @@ button {
     height: 150px;
     filter: (white);
     margin-bottom: 20px;
+}
+
+#pedidos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pedido {
+    margin: 10px;
+}
+
+.pedido p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container h2 {
+    font-size: 20px;
+    font-weight: 550;
+    margin-top: 10px;
+}
+
+#divisao {
+    background-color: white;
+    width: 2px;
+}
+
+#bmv {
+    margin-bottom: 20px;
+}
+
+nav {
+    margin: 20px;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+#txt p {
+    font-size: 16px;
 }

@@ -231,7 +231,7 @@ input:hover {
 
 .home-button {
     width: 200px;
-    height: 45px;
+    height: 50px;
     padding: 15px;
     border-radius: 10px;
     border-style: none;
@@ -294,6 +294,7 @@ button {
 #Confirmtx{
     text-align: center;
     color: white;
+    margin-bottom: 15px;
 }
 
 #og{
@@ -305,6 +306,10 @@ button {
 
 #og2 {
     color: #ffffff;
+}
+
+#og3 {
+    margin-bottom: 15px;
 }
 
 #ogp{
@@ -330,7 +335,7 @@ button {
     #email2 {
         color: white;
         margin-bottom: 20px;
-        margin-right: 50px;
+        margin-right: 10px;
         font-size: 19px;
     }
 
@@ -388,4 +393,49 @@ nav {
 
 #txt p {
     font-size: 16px;
+    margin-top: 10px;
+}
+
+#txt p a {
+    color: #ffffff;
+    background-color: #fc8422;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#cad {
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #fc8422;
+}
+
+label {
+    margin: 0;
+    margin-right: 50px;
+}
+
+.legal p {
+    margin-bottom: 20px;
+}
+
+select {
+    margin: 10px;
+    height: 45px;
+    width: 200px;
+    padding: 12px;
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 0px 0px 5px rgba(37, 37, 37, 0.308);
+}
+
+#quando {
+    margin-right: 75px;
+}
+
+#onde {
+    margin-right: 120px;
 }

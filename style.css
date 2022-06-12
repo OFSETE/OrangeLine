@@ -110,10 +110,10 @@ body {
     padding: 2rem 4rem;
 }
 
-.sohome {
+ .sohome {
     background-color: rgba(0,0, 0, 0);
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%,-50%);
     border-radius: 15px;
@@ -221,6 +221,7 @@ input:hover {
 
 #logo {
     height: 80px;
+    margin-top: 20px;
 }
 
 .sohome #home-title {
@@ -306,6 +307,7 @@ button {
 
 #og2 {
     color: #ffffff;
+    text-align: center;
 }
 
 #og3 {
@@ -443,4 +445,25 @@ select {
 #icons {
     width: 64px;
     height: 64px; 
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer img {
+    width: 40px;
+    height: 40px;
+    margin: 47px;
+}
+
+.eqp-title {
+    font-size: 30px;
+    margin-bottom: 15px;
 }

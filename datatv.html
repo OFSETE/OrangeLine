@@ -22,67 +22,20 @@
                 <h3 id="onde">Para aula:</h3>
                 <select name="Aulas" id="Aulas">
                     <option selected>Selecione a aula</option>
-                    <option value="1">1 Aula</option>
-                    <option value="2">2 Aula</option>
-                    <option value="3">3 Aula</option>
-                    <option value="4">4 Aula</option>
-                    <option value="5">5 Aula</option>
-                    <option value="6">6 Aula</option>
-                    <option value="7">7 Aula</option>
-                    <option value="8">8 Aula</option>
-                    <option value="9">9 Aula</option>
+                    <option value="1">1 Aula (07:10-08:00)</option>
+                    <option value="2">2 Aula (08:00-08:50)</option>
+                    <option value="3">3 Aula (09:10-10:00)</option>
+                    <option value="4">4 Aula (10:00-10:50)</option>
+                    <option value="5">5 Aula (10:50-11:40)</option>
+                    <option value="6">6 Aula (13:00-13:50)</option>
+                    <option value="7">7 Aula (13:50-14:40)</option>
+                    <option value="8">8 Aula (15:00-15:50)</option>
+                    <option value="9">9 Aula (15:50-16:40)</option>
                 </select>
                 <a href="pedidotv.html"><button type="submit" class="home-button">Confirmar</button></a>
                 <a href="equipamentos.html"><button type="submit" class="home-button">Voltar</button></a>
             </div>
         </div>
     </div>
-
-    <script>
-        class MobileNavbar {
-            constructor(mobileMenu, navList, navLinks) {
-                this.mobileMenu = document.querySelector(mobileMenu);
-                this.navList = document.querySelector(navList);
-                this.navLinks = document.querySelectorAll(navLinks);
-                this.activeClass = "active";
-
-                this.handleClick = this.handleClick.bind(this);
-            }
-
-            animateLinks() {
-                this.navLinks.forEach((link, index) => {
-                    link.style.animation
-                        ? (link.style.animation = "")
-                        : (link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3
-                            }s`);
-                });
-            }
-
-            handleClick() {
-                this.navList.classList.toggle(this.activeClass);
-                this.mobileMenu.classList.toggle(this.activeClass);
-                this.animateLinks();
-            }
-
-            addClickEvent() {
-                this.mobileMenu.addEventListener("click", this.handleClick);
-            }
-
-            init() {
-                if (this.mobileMenu) {
-                    this.addClickEvent();
-                }
-                return this;
-            }
-        }
-
-        const mobileNavbar = new MobileNavbar(
-            ".mobile-menu",
-            ".nav-list",
-            ".nav-list li",
-        );
-        mobileNavbar.init();
-    </script>
 </body>
-
 </html>

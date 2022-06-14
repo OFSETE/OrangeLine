@@ -442,26 +442,6 @@ select {
     margin-right: 120px;
 }
 
-#icons {
-    width: 64px;
-    height: 64px; 
-}
-
-.footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.footer img {
-    width: 40px;
-    height: 40px;
-    margin: 47px;
-}
 
 .eqp-title {
     font-size: 30px;

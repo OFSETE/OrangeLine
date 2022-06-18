@@ -12,19 +12,6 @@ header {
    background: none;
 }
 
-.mobile-menu {
-    display: none;
-    cursor: pointer;
-    position: relative;
-}
-
-.mobile-menu div {
-    width: 32px;
-    height: 2px;
-    background: rgb(0, 0, 0);
-    margin: 8px;
-}
-
 a {
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -50,49 +37,6 @@ nav {
     margin-left: 32px;
 }
 
-@media (max-width: 699px) {
-    body {
-        overflow-x: hidden;
-    }
-    .nav-list {
-        border-radius: 10px;
-        position: fixed;
-        top: 8vh;
-        right: 0;
-        width: 30vw;
-        height: 92vh;
-        background: #fc8422;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        transform: translateX(100%);
-        transition: transform 0.3s ease-in;
-    }
-
-    .nav-list li {
-        margin-left: 0;
-        opacity: 0;
-    }
-
-    .mobile-menu {
-        display: block;
-    }
-
-    .nav-list.active {
-        transform: translateX(0);
-    }
-
-    @keyframes navLinkFade {
-        from {
-            opacity: 0;
-            transform: translateX((50px));
-        }
-        to {
-            opacity: 1;
-            transform: translateX(0);
-        }
-    }
-}
 
 body {
     min-height: 100vh;
@@ -101,14 +45,6 @@ body {
     background-image: radial-gradient( rgb(255, 175, 25), #fc8422);
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20%;
-    margin-left: 15%;
-    padding: 2rem 4rem;
-}
 
  .sohome {
     background-color: rgba(0,0, 0, 0);
@@ -134,24 +70,6 @@ body {
     border-radius: 51px;
     box-shadow:  50px 50px 100px #1d1d1d11, -50px -50px 100px #75757510;
     margin-top: 30px;
-}
-
-#sohome {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100px;
-    padding: 2rem;
-    background: rgba(255, 255, 255, 0);
-    backdrop-filter: blur( 10px );
-    -webkit-backdrop-filter: blur( 10px );
-    border-radius: 51px;
-    box-shadow:  50px 50px 100px #1d1d1d11, -50px -50px 100px #75757510;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
 }
 
 #cadastro h1 {
@@ -243,13 +161,21 @@ input:hover {
     box-shadow: none;
 }
 
-.home-button a {
-    color: white;
+.cima {
     text-align: center;
 }
 
-.container button {
-    margin: 0.3rem;
+.baixo{
+    text-align: center;
+}
+
+.inpor{
+    margin-top: 50px;
+}
+
+.home-button a {
+    color: white;
+    text-align: center;
 }
 
 .sohome button {
@@ -263,10 +189,6 @@ button {
 .home-title {
     margin-bottom: 20px;
     color: white;
-}
-
-.container{
-    margin-right: 70px;
 }
 
 .sohome{
@@ -326,13 +248,18 @@ button {
     justify-content: center;
     min-height: 100px;
     padding: 2rem;
-    background: rgba(255, 255, 255, 0.002);
+    background: rgba(255, 255, 255, 0);
     backdrop-filter: blur( 10px );
     -webkit-backdrop-filter: blur( 10px );
     border-radius: 51px;
-    box-shadow:  50px 50px 100px #1d1d1d20, -50px -50px 100px #75757522;
+    box-shadow:  50px 50px 100px #1d1d1d11, -50px -50px 100px #75757510;
     color: white;
     }
+
+    .container button {
+    margin: 0.3rem;
+    text-align: center;
+}
 
     #email2 {
         color: white;
@@ -367,12 +294,6 @@ button {
     color: white;
     font-size: 20px;
     text-align: center;
-}
-
-.container h2 {
-    font-size: 20px;
-    font-weight: 550;
-    margin-top: 10px;
 }
 
 #divisao {
